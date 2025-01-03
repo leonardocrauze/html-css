@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        div {
+            display: inline-block;
+            border: solid black;
+            height: 100px;
+            width: 100px;
+            text-align: center;
+            background-color: lightblue;
+        }
+
+        div:hover {
+            background-color: lightcoral;
+        }
+
+        div#d2:hover {
+            background-color: blueviolet;
+        }
+
+        div#d3:hover {
+            background-color: greenyellow;
+        }
+
+        a {
+            font-weight: bold;
+            color: red;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+
+        a#facebook{
+            color: blue;
+        }
+
+        a#facebook:hover {
+            color: red;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Treinando Hover</h1>
+    <h2>Div</h2>
+
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+
+    <h2>Links</h2>
+    <p><a href="https://www.youtube.com/" target="_blank" rel="external">YouTube</a></p>
+    <p><a id="facebook" href="https://www.facebook.com/gustavoguanabara/?locale=pt_BR" target="_blank" rel="external">Facebook</a></p>
+</body>
+</html>

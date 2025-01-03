@@ -1,0 +1,43 @@
+@charset "UFT-8";
+@font-face {
+    font-family: mercedes;
+    src: url('fonts/OPTIEdgar-Extended.otf') format('opentype');
+}
+
+@font-face {
+    font-family: desenho;
+    src: url('fonts/Super\ Water.ttf') format('truetype');
+}
+
+body {
+    background-image: linear-gradient(to right,#1DC5B4, #189e91, #10746a);
+}
+
+main {
+    background-color: #fff;
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #093d38c9;
+}
+
+h1 {
+    font-family: 'mercedes', sans-serif;
+    text-align: center;
+    color: #1DC5B4;
+    text-shadow: 2px 2px 3px #0b6d63;
+    
+}
+
+h2 {
+    font-family: 'desenho', sans-serif;
+    text-decoration:underline ;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+p {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,31 @@
+@charset "UFT-8";
+
+body {
+    background-image: linear-gradient(to right, #EF1D1D, #a11313, #971414, #5f0a0a);
+}
+
+main {
+    background-color: #fff;
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:10px 10px 5px #411313ad;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'lilita one', sans-serif;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px #00000069;
+}
+
+h2 {
+    font-family: 'Roboto Slab',sans-serif ;
+}
+
+p {
+    font-family: 'poppins', sans-serif;
+    font-size: 0.9em;
+}
+
